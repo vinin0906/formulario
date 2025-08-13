@@ -1,37 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Inscrição</title>
-    <link rel="stylesheet" href="formulario.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Receitas de Salgados de Festa</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="formulario__conteiner">
-        <h1>Formulário de Inscrição</h1>
-        <p>Preencha o formulário abaixo para receber novidades da nossa agência de turismo!</p>
-        <form>
-            <div class="formulario__grupo">
-                <label for="nome">Nome Completo</label>
-                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
-            </div>
-            <div class="formulario__grupo">
-                <label for="email">E-mail</label>
-                <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
-            </div>
-            <div class="formulario__grupo">
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" name="telefone" required placeholder="(XX) XXXXX-XXXX">
-            </div>
-            <div class="formulario__grupo">
-                <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" name="mensagem" maxlength="800" required placeholder="Escreva sua mensagem"></textarea>
-            </div>
-            <button type="submit" class="formulario__botao--enviar">Enviar</button>
-        </form>
-    </div>
+
+    <header>
+        <h1>Receitas de Salgados para Festa</h1>
+        <nav>
+            <ul>
+                <li><a href="#empadao">Empadão de Frango</a></li>
+                <li><a href="#coxinha">Coxinha de Frango</a></li>
+                <li><a href="#esfiha">Esfiha de Carne</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="empadao">
+            <h2>Empadão de Frango</h2>
+            <img src="https://via.placeholder.com/400x300" alt="Empadão de Frango">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>1 kg de peito de frango desfiado</li>
+                <li>1 massa de empada</li>
+                <li>2 tomates picados</li>
+                <li>1 cebola picada</li>
+                <li>Sal e pimenta a gosto</li>
+                <li>Azeite para refogar</li>
+            </ul>
+            <h3>Modo de Preparo:</h3>
+            <p>Refogue a cebola e o tomate no azeite. Acrescente o frango desfiado e tempere a gosto. Coloque a mistura na massa e asse por 40 minutos a 180°C.</p>
+        </section>
+
+        <section id="coxinha">
+            <h2>Coxinha de Frango</h2>
+            <img src="https://via.placeholder.com/400x300" alt="Coxinha de Frango">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>500g de peito de frango cozido e desfiado</li>
+                <li>500g de massa para coxinha</li>
+                <li>1 cebola picada</li>
+                <li>Temperos a gosto</li>
+                <li>Óleo para fritar</li>
+            </ul>
+            <h3>Modo de Preparo:</h3>
+            <p>Recheie a massa com o frango e modele as coxinhas. Frite em óleo quente até ficarem douradas e crocantes.</p>
+        </section>
+
+        <section id="esfiha">
+            <h2>Esfiha de Carne</h2>
+            <img src="https://via.placeholder.com/400x300" alt="Esfiha de Carne">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>500g de carne moída</li>
+                <li>1 cebola picada</li>
+                <li>1 pacote de massa para esfiha</li>
+                <li>Temperos a gosto</li>
+            </ul>
+            <h3>Modo de Preparo:</h3>
+            <p>Refogue a carne com cebola e os temperos. Coloque sobre a massa e asse em forno pré-aquecido por 25 minutos.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Receitas de Salgados de Festa. Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
